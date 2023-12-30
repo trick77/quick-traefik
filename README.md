@@ -12,7 +12,7 @@ This Docker Compose service configuration features:
 - Harness the power of the Let's Encrypt ACME TLS challenge to effortlessly summon certificates for your esteemed domains.
 - Witness the eloquent dance of access logs gracefully streaming into the container's stdout.
 - Equip your setup with the nimble ability to absorb environment variables from the sacred tome known as the `.env` file.
-- Optionally embrace the futuristic realm of IPv6 support, allowing your Docker Compose service configuration to seamlessly communicate over the latest generation of Internet Protocol.
+- Optionally embraces the futuristic realm of IPv6 support, allowing your Docker Compose service configuration to seamlessly communicate over the latest generation of Internet Protocol.
 
 ## Usage
 
