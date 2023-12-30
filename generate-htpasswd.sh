@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
 # This script generates a htpasswd entry with proper escaping for Traefik's basic
-# authentication mechanism, making it suitable for use in a Docker Compose label.
+# authentication mechanism, making it suitable to use in a Docker Compose label.
 
 usage() {
   echo "Usage: $0 <username> <password>"
