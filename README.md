@@ -7,11 +7,10 @@ Fear not! Below unfolds a comprehensive example tailored for the latest Traefik 
 
 This Docker Compose service configuration features:
 
-- Forcefully nudging insecure requests towards the safer realms of HTTPS.
-- Elevate the Traefik dashboard to its majestic throne, guarded by the impenetrable shield of basic authentication (credentials: traefik/traefik).
-- Harness the power of the Let's Encrypt ACME TLS challenge to effortlessly summon certificates for your esteemed domains.
-- Witness the eloquent dance of access logs gracefully streaming into the container's stdout.
-- Equip your setup with the nimble ability to absorb environment variables from the sacred tome known as the `.env` file.
+- Forcefully nudges insecure requests towards the safer realms of HTTPS.
+- Elevates the Traefik dashboard to its majestic throne, guarded by the impenetrable shield of basic authentication (credentials: traefik/traefik).
+- Harnesses the power of the Let's Encrypt ACME TLS challenge to effortlessly summon certificates for your esteemed domains.
+- Equips your setup with the nimble ability to absorb environment variables from the sacred tome known as the `.env` file.
 - Optionally embraces the futuristic realm of IPv6 support, allowing your Docker Compose service configuration to seamlessly communicate over the latest generation of Internet Protocol.
 
 ## Usage
