@@ -15,6 +15,7 @@ This Docker Compose service configuration features:
 ## Usage
 
 1. Edit `.env` to set configuration details
+1. Create the required `traefik` network
 1. Start the container with `docker compose up -d`
 1. Monitor for errors with `docker compose logs -f`
 1. Open your FQDNs in the browser and observe Traefik issuing certificates using Let's Encrypt (may take a few seconds!).
