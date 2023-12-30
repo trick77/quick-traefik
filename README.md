@@ -20,7 +20,7 @@ This Docker Compose service configuration features:
 1. Monitor for errors with `docker compose logs -f`
 1. Open your FQDNs in the browser and observe Traefik issuing certificates using Let's Encrypt's TLS challenge mechanism (may take a few seconds!).
 
-Don't forget to remove the Let's Encrypt staging line in `compose.yml` once the configuration is ready!
+Don't forget to remove the Let's Encrypt staging configuration in `compose.yml` once everything is ready!
 
 ## Create the network bridge
 
