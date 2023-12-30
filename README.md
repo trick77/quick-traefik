@@ -1,7 +1,7 @@
 # quick-traefik
 
-Locating functional Docker Compose service configurations for Traefik can be a challenging quest, especially ones that encompass
-a fully operational Traefik Dashboard, seamless integration with Let's Encrypt, and robust IPv6 support. The ever-evolving landscape
+Locating functional Docker Compose service configurations for the [Traefik reverse proxy](https://github.com/traefik/traefik) can be a challenging quest, especially ones that encompass
+a fully operational Traefik dashboard, seamless integration with Let's Encrypt, and robust IPv6 support. The ever-evolving landscape
  of Traefik, coupled with configuration variations across different versions, further complicates this pursuit. 
 Fear not! Below unfolds a comprehensive example tailored for the latest Traefik version available at the time of this writing.
 
