@@ -17,10 +17,11 @@ This Docker Compose service configuration features:
 ## Usage
 
 1. Edit `.env` to set configuration details
-1. Remove the Let's Encrypt staging label in `compose.yml` once the configuration is ready
 1. Start the containers with `docker compose up -d`
 1. Monitor for errors with `docker compose logs -f`
 1. Open your FQDNs in the browser and observe Traefik issuing certificates using Let's Encrypt (may take a few seconds!).
+
+Don't forget to remove the Let's Encrypt staging label in `compose.yml` once the configuration is ready!
 
 ## Create external network bridge
 
