@@ -22,7 +22,7 @@ This Docker Compose service configuration features:
 
 Don't forget to remove the Let's Encrypt staging line in `compose.yml` once the configuration is ready!
 
-## Create external network bridge
+## Create the network bridge
 
 Create a network bridge by following these steps:
 
