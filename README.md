@@ -10,13 +10,12 @@ This Docker Compose service configuration features:
 - Forcefully nudges insecure requests towards the safer realms of HTTPS.
 - Elevates the Traefik dashboard to its majestic throne, guarded by the impenetrable shield of basic authentication (credentials: traefik/traefik).
 - Harnesses the power of the Let's Encrypt ACME TLS challenge to effortlessly summon certificates for your esteemed domains.
-- Equips your setup with the nimble ability to absorb environment variables from the sacred tome known as the `.env` file.
 - Optionally embraces the futuristic realm of IPv6 support, allowing your Docker Compose service configuration to seamlessly communicate over the latest generation of Internet Protocol.
 
 ## Usage
 
 1. Edit `.env` to set configuration details
-1. Start the containers with `docker compose up -d`
+1. Start the container with `docker compose up -d`
 1. Monitor for errors with `docker compose logs -f`
 1. Open your FQDNs in the browser and observe Traefik issuing certificates using Let's Encrypt (may take a few seconds!).
 
@@ -27,7 +26,7 @@ Don't forget to remove the Let's Encrypt staging label in `compose.yml` once the
 Create an external network bridge by following these steps:
 
 1. For IPv4-only setups, use the command: `docker network create traefik`
-1. If you want Traefik to be reachable over IPv6 too, modify the Docker daemon configuration in /etc/docker/daemon.json (example provided for Debian Bookworm):
+1. If you want Traefik to be reachable over IPv6 too, modify the Docker daemon configuration in `/etc/docker/daemon.json` (example provided for Debian Bookworm):
 ``` json
 {
   "ipv6": true,
