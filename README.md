@@ -24,9 +24,9 @@ Don't forget to remove the Let's Encrypt staging label in `compose.yml` once the
 
 ## Create external network bridge
 
-Create an external network bridge by following these steps:
+Create a network bridge by following these steps:
 
-1. For IPv4-only setups, use the command: `docker network create traefik`
+1. For IPv4-only setups, use the command: `docker network create traefik` and you're done here.
 1. If you want Traefik to be reachable over IPv6 too, modify the Docker daemon configuration in `/etc/docker/daemon.json` (example provided for Debian Bookworm):
 ``` json
 {
